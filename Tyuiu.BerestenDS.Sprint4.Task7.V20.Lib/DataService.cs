@@ -18,7 +18,7 @@ namespace Tyuiu.BerestenDS.Sprint4.Task7.V20.Lib
             {
                 for(int j = 0;j < m; j++)
                 {
-                    if (mtrx[i,j] %2 != 0)
+                    if (mtrx[i,j] %2 == 0)
                     {
                         count *= mtrx[i,j];
                     }

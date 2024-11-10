@@ -12,7 +12,7 @@ namespace Tyuiu.BerestenDS.Sprint4.Task7.V20.Test
             int m = 3;
             string str = "357951248632587";
             int res = ds.Calculate(n, m, str);
-            int wait = 496125;
+            int wait = 6144;
             Assert.AreEqual(wait, res);
         }
     }
